@@ -1,0 +1,49 @@
+  <!-- about section design -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="Images/NewEvil.png" alt="" />
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Software Engineer!</h3>
+        <p>
+          Am a young software engineer specializing in Artificial Intelligence.
+          I have a great understanding of algorithms, C++, Python, and a little
+          bit of Java, CSS, and HTML. My passion for AI stems from its ability
+          to solve complex problems and make our lives easier. I am constantly
+          learning and exploring new technologies to stay up-to-date with the
+          latest advancements in the field. My goal is to create intelligent
+          systems and machines that can make a positive impact on society. When
+          I'm not coding, you can find me reading about AI, playing video games,
+          or exploring the outdoors taking photos.
+        </p>
+        <div id="more-text" style="display: none">
+          <p>
+            I in live a small town known as the cherry capital of Australia
+            otherwise known as Young Nsw. I am 17 years old, and will have a
+            full bachelor degree of software engineering in Artificial
+            intelligence behind my name at the age of 19 years old.
+          </p>
+        </div>
+        <a href="#about" class="btn" onclick="toggle()">Read More</a>
+      </div>
+    </section>
+
+    css:
+    .about-content a {
+  transition: 0.5s ease; /* Add a transition effect on the height property with a duration of 0.5 seconds and an ease timing function */
+}
+
+    js:
+
+
+    /*==================================Toggle Drop down===============================*/
+function toggle() {
+    var moreText = document.getElementById("more-text");
+    if (moreText.style.display === "none") {
+      moreText.style.display = "block";
+    } else {
+      moreText.style.display = "none";
+    }
+  }

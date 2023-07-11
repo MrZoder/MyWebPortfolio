@@ -57,10 +57,16 @@ ScrollReveal().reveal('.home-content h1, .about-content', {origin: 'right'});
 
 /*==================================Typed js===============================*/
 const typed = new Typed('.multiple-text',{
-    strings: ['Software Engineer','Photographer','App developer'],
+    strings: ['‎ Software Engineer','‎  Photographer','n App developer'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
     loop:true
 
 });
+
+/*==================================Toggle Drop down===============================*/
+document.querySelector('.readMoreButton').addEventListener('click', function() {
+    document.getElementById('dropdownContent').classList.toggle('show');
+  });
+  
