@@ -12,11 +12,11 @@
 }
 
 :root {
-  --bg-color: #464446;
-  --second-bg-color: #33303087;
+  --bg-color: #0f070f;
+  --second-bg-color: #00000087;
   --contact-bg-color: #ffff;
   --text-color: #ffffff;
-  --main-color: #f1e972;
+  --main-color: #9dfa39;
 }
 
 html {
@@ -58,17 +58,8 @@ section {
   cursor: default;
 }
 
-.logo span {
-  color: var(--main-color);
-}
-
-.logoimg img {
-  width: 3vw;
-  margin-left: -69rem;
-}
-
 .navbar a {
-  font-size: 1.9rem;
+  font-size: 1.7rem;
   color: var(--text-color);
   margin-left: 4rem;
   transition: 0.3s;
@@ -81,9 +72,6 @@ section {
 .navbar a:hover,
 .navbar a.active {
   color: var(--main-color);
-}
-.navbar a.active {
-  font-size: medium;
 }
 
 #menu-icon {
@@ -176,7 +164,7 @@ span {
   box-shadow: none;
 }
 
-.about {
+.web-dev {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -184,52 +172,27 @@ span {
   background: var(--second-bg-color);
 }
 
-.about-img img {
-  width: 35vw;
-  animation: floatImage 5s ease-in-out infinite;
-}
-
 .heading {
   text-align: center;
   font-size: 4.5rem;
 }
 
-.about-content h2 {
+.webDev-content h2 {
   text-align: left;
   line-height: 1.2;
 }
 
-.about-content h3 {
+.webDev-content h3 {
   font-size: 2.6rem;
 }
 
-.about-content p {
+.webDev-content p {
   font-size: 1.6rem;
   margin: 2rem 0 3rem;
 }
-
-.readMoreButton {
-  display: inline-block;
-  padding: 1rem 2.8rem;
-  cursor: pointer;
-  background: var(--main-color);
-  border-radius: 4rem;
-  box-shadow: 0 0 1rem var(--main-color);
-  font-size: 1.6rem;
-  color: var(--second-bg-color);
-  letter-spacing: 0.1rem;
-  font-weight: 600;
-  transition: 0.5s ease;
+.webDev-content a {
+  transition: 0.5s ease; /* Add a transition effect on the height property with a duration of 0.5 seconds and an ease timing function */
 }
-
-#dropdownContent p {
-  display: none;
-}
-
-#dropdownContent.show {
-  display: block;
-}
-
 .services h2 {
   margin-bottom: 5rem;
 }
@@ -445,11 +408,11 @@ span {
     padding: 10rem 3% 2rem;
   }
 
-  .services {
+  .app-dev {
     padding-bottom: 7rem;
   }
 
-  .portfolio {
+  .ai-dev {
     padding-bottom: 7rem;
   }
 
@@ -501,26 +464,20 @@ span {
     font-size: 5rem;
   }
 
-  .home-img img {
-    width: 70vw;
-    margin-top: 4rem;
-  }
-
-  .about {
+  .web-dev {
     flex-direction: column-reverse;
-    animation: ease-out 4s;
   }
 
-  .about img {
+  .web-dev img {
     width: 70vw;
     margin-top: 4rem;
   }
 
-  .services h2 {
+  .app-dev h2 {
     margin-bottom: 3rem;
   }
 
-  .portfolio h2 {
+  .ai-dev h2 {
     margin-bottom: 3rem;
   }
 
