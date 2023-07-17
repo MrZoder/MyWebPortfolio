@@ -58,13 +58,12 @@ section {
   cursor: default;
 }
 
-.logo span {
-  color: var(--main-color);
+.logo img {
+width: 4vh;
 }
 
-.logoimg img {
-  width: 3vw;
-  margin-left: -69rem;
+.logo span {
+  color: var(--main-color);
 }
 
 .navbar a {
@@ -430,6 +429,7 @@ span {
 }
 
 /*BREAKPOINTS*/
+
 @media (max-width: 1200px) {
   html {
     font-size: 55%;
